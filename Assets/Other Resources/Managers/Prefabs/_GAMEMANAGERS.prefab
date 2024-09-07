@@ -737,6 +737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5559584777466995191}
   - component: {fileID: 8730639058992007681}
+  - component: {fileID: 1371922929550476407}
   m_Layer: 0
   m_Name: _HUDMANAGER
   m_TagString: Untagged
@@ -780,6 +781,21 @@ MonoBehaviour:
   superFormUI: {fileID: 0}
   superFormUIChildElements: []
   debugController: {fileID: 0}
+--- !u!114 &1371922929550476407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4588368171006616496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9da73a5867952274ca9c39bf26d18d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 8928772831251643039}
+  debugTemplatePrefab: {fileID: 0}
+  debugElements: []
 --- !u!1 &4983877011506462232
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,11 +844,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneList: {fileID: 11400000, guid: 48302ae7fbe9e364085ccc92d034d31d, type: 2}
   currentSceneData:
-    name: Quasar Lake Act 2
+    name: Quasar Lake Act 1
     sceneType: 2
-    actNumber: 2
-    sceneId: 4
-    nextSceneId: 7
+    actNumber: 1
+    sceneId: 3
+    nextSceneId: 4
     thumbnail: {fileID: 21300000, guid: b1e9db8307574e240b00dd828587f8e4, type: 3}
     actAbbreviation: GHZ
   currentStartPoint: {fileID: 0}
@@ -1144,7 +1160,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5594369705737844439}
-  - component: {fileID: 5594369705737844436}
   m_Layer: 0
   m_Name: _SCOREMANAGER
   m_TagString: Untagged
@@ -1169,42 +1184,6 @@ Transform:
   m_Father: {fileID: 5594369703955878821}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5594369705737844436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5594369705737844438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86b2034efadc18945993462343d5f695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreData:
-    ringCount: 0
-    scoreCount: 0
-    lifeCount: 3
-    timerCount: 0
-  scoreCountUI: {fileID: 0}
-  timerCountUI: {fileID: 0}
-  ringCountUI: {fileID: 0}
-  lifeCountUI: {fileID: 0}
-  timerFlashUI: {fileID: 0}
-  ringFlashUI: {fileID: 0}
-  flashFrequency: 0.1333
-  currentCombo: 0
-  scoreSprites:
-  - {fileID: 1326710126619831238, guid: 5a7a6a56a640ce14785745098522c75c, type: 3}
-  - {fileID: -850772115251814879, guid: 5a7a6a56a640ce14785745098522c75c, type: 3}
-  - {fileID: -6968151070392802928, guid: 5a7a6a56a640ce14785745098522c75c, type: 3}
-  - {fileID: -6336948909106214195, guid: 5a7a6a56a640ce14785745098522c75c, type: 3}
-  - {fileID: 4822041742037392132, guid: 5a7a6a56a640ce14785745098522c75c, type: 3}
-  - {fileID: 6231723570972942598, guid: 5a7a6a56a640ce14785745098522c75c, type: 3}
-  scoreToNextLife: 50000
-  ringExtraLifeLevel: 100
-  superRingLossAmount: 1
-  superRingLossFrequency: 1
 --- !u!1 &5594369705930461144
 GameObject:
   m_ObjectHideFlags: 0

@@ -33,6 +33,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Other Resources/Scenes/SAGE Scene/Scene/Scene/SAGE Intro Scene.unity
     guid: 9dfa71ecff761c841ba398b35acbed1a
+  - enabled: 0
+    path: Assets/Other Resources/Scenes/Stages/Template Zone Act 1.unity
+    guid: c513007f9d27ed34c855fc5350f16b3c
   m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: 16c3b1c9893058e4dbe87dc708316d51,
+    com.unity.input.settings: {fileID: 11400000, guid: 54b8a183afd48d54aaf330efcece3c58,
       type: 2}

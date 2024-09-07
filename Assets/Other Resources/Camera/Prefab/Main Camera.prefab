@@ -293,7 +293,7 @@ MonoBehaviour:
     leftBounds: 1000
     rightBounds: 1000
     topBounds: 1000
-    bottomBounds: 1000
+    bottomBounds: 2224
   preActEndBounds:
     boundsType: 1
     transform: {fileID: 0}
@@ -314,9 +314,9 @@ MonoBehaviour:
     leftBounds: 8
     rightBounds: 8
     topBounds: 32
-    bottomBounds: 32
+    bottomBounds: 2224
   deathPlaneSlider: {fileID: 8386750634064061106}
-  initialBottomActBounds: 0
+  initialBottomActBounds: 2224
 --- !u!114 &4424951912787868644
 MonoBehaviour:
   m_ObjectHideFlags: 0

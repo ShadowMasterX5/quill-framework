@@ -22,7 +22,7 @@ public class GMStageHUDManager : MonoBehaviour
     private Image[] superFormUIChildElements = null;
 
     [SerializeField, Tooltip("The debug controller for the applcication")]
-    private HUDDebugController debugController = null;
+    public HUDDebugController debugController = null;
 
     /// <summary>
     /// The single instance of the regular HUD manager
